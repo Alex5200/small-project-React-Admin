@@ -2,15 +2,15 @@
   "categories": [
     {
       "id": 1,
-      "name": "animals"
+      "name": "programmers"
     },
     {
       "id": 2,
-      "name": "beard"
+      "name": "design"
     },
     {
       "id": 3,
-      "name": "business"
+      "name": "analytic"
     },
     {
       "id": 4,

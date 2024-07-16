@@ -1,4 +1,4 @@
-import { Admin, EditGuesser, ListGuesser, Resource,    } from "react-admin";
+import { Admin, Resource } from "react-admin";
 
 import jsonServerProvider from 'ra-data-json-server'
 import { PosterList } from "./components/PosterList";
@@ -6,8 +6,8 @@ import { PosterEdit } from "./components/PosterEdit";
 import { PosterCreate } from "./components/PosterCreate";
 import { CategoryList } from "./components/CategoryList";
 import { CategoryEdit } from "./components/CategoryEdit";
-const dataProvider = jsonServerProvider("http://localhost:4000")
-const dataJsonPlaceholder = jsonServerProvider("https://jsonplaceholder.typicode.com/posts")
+const dataProvider = jsonServerProvider("http://95.163.222.199:4000/")
+
 const App = () => <Admin  dataProvider={dataProvider } >
 
 
